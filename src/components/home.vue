@@ -1,6 +1,6 @@
 <template>
   <div>
-    <product-center></product-center>
+    <product-center-new></product-center-new>
     <introduction></introduction>
     <strength></strength>
     <xinwen></xinwen>
@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import ProductCenter from '@/components/homes/product_center'
+import ProductCenterNew from '@/components/homes/product_center_new'
 import Introduction from '@/components/homes/introduction'
 import Strength from '@/components/homes/strength'
 import Xinwen from '@/components/homes/xinwen'
@@ -23,7 +23,7 @@ export default {
     }
   },
   components: {
-    'product-center': ProductCenter,
+    'product-center-new': ProductCenterNew,
     'introduction': Introduction,
     'strength': Strength,
     'xinwen': Xinwen,
